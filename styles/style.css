@@ -215,7 +215,7 @@ some facts style is here
 
 .fact:hover {
     background-color: #FF900E;
-    transform: scale(150px, 170px);
+    transform:  skew(-2.5deg, -5deg) scale(1.1);
 }
 
 .fact-title {
@@ -366,6 +366,11 @@ footer p {
 
     .card {
         margin: 0;
+    }
+
+    .btn-featurs {
+        bottom: 0;
+        margin: 20px 0 40px;
     }
 
     .some-facts {
